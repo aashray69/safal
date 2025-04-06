@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9cfc5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .promo-card {
+    background-color: #fcecd9;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    max-width: 360px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .card-content {
+    background-color: #fff6d4;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 15px;
+  }
+  
+  .burger-img {
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto 20px;
+    display: block;
+  }
+  
+  .text-section {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .text-section h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .highlight {
+    color: red;
+  }
+  
+  .text-section p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .skip-btn,
+  .submit-btn {
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    flex: 1;
+  }
+  
+  .skip-btn {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-btn {
+    background-color: red;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.3);
+  }
+  
+  @media (min-width: 600px) {
+    .promo-card {
+      max-width: 400px;
+    }
+  }
+  
